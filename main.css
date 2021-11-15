@@ -1,0 +1,68 @@
+* {
+  scroll-behavior: smooth;
+  padding: 0;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#073b4c), to(#56cfe1));
+  background: linear-gradient(#073b4c, #56cfe1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0;
+}
+
+.registration, .login {
+  width: 360px;
+  margin: 0 auto;
+  margin-top: 10%;
+  background-color: #ffffff;
+}
+
+.registration .registration_main, .registration .login_main, .login .registration_main, .login .login_main {
+  padding: 10%;
+}
+
+.registration .registration_main form, .registration .login_main form, .login .registration_main form, .login .login_main form {
+  position: relative;
+  text-align: center;
+}
+
+.registration .registration_main form .form-group, .registration .login_main form .form-group, .login .registration_main form .form-group, .login .login_main form .form-group {
+  margin-bottom: 5%;
+}
+
+.registration .registration_main form .input-group-text, .registration .login_main form .input-group-text, .login .registration_main form .input-group-text, .login .login_main form .input-group-text {
+  font-size: 25px;
+}
+
+.registration .registration_main form button, .registration .login_main form button, .login .registration_main form button, .login .login_main form button {
+  padding: 2% 8%;
+  background-color: #006d77;
+  border: none;
+}
+
+.registration .registration_main form button:hover, .registration .login_main form button:hover, .login .registration_main form button:hover, .login .login_main form button:hover {
+  background-color: #e29578;
+}
+
+.registration .registration_main form a, .registration .login_main form a, .login .registration_main form a, .login .login_main form a {
+  text-decoration: none;
+}
+
+.registration .registration_main form .alert {
+  display: none;
+}
+
+.login {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
